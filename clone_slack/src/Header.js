@@ -3,9 +3,10 @@ import './Header.css';
 import {Avatar} from "@material-ui/core";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
 import SearchIcon from "@material-ui/icons/Search";
+import HelpOutlineIcon from "@material-ui/icons/HelpOutline"
 
 function Header () {
-    return <div className = "header">
+    return ( <div className = "header">
             <div className = "header__left">
             <Avatar
                 className="header__avatar"
@@ -16,12 +17,14 @@ function Header () {
             </div>
             <div className = "header__search">
                 <SearchIcon/>
-                {/* input */}
+                <input placeholder= "Search"/>
             </div>
             <div className ="header__right">
-                {/* help icon */}
+            <HelpOutlineIcon/>
+        
             </div>
-        </div>;
-    
+        </div>
+    );
 }
+
 export default Header;
