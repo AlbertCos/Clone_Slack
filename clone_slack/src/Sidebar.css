@@ -1,0 +1,12 @@
+.sidebar{
+    background-color: #3f0f40;
+    border-top: 1px solid #49274b;
+    color:white;
+    max-width: 260px;
+}
+
+.sidebar__header{
+    display: flex;
+    border-bottom: 1px solid #49274b;
+
+}
