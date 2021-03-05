@@ -21,14 +21,13 @@ function Sidebar () {
 
     useEffect(()=>{
         //Run this code ONCE when the sidebar component load 
-        db.collection("rooms").onSnapshot(snapshot =>(
-            setChannels(snapshot.docs.map(doc=>({
+        db.collection("rooms").onSnapshot((snapshot) =>{
+            setChannels(snapshot.docs.map((doc) =>({
                 id: doc.id,
-                name:doc.data().name
+                name:doc.data().name,
             }))
             )
-        )
-    );
+        })
 
     }, [])
 
@@ -55,9 +54,9 @@ function Sidebar () {
             <hr/>
             <SidebarOption Icon={ExpandMoreIcon} title = "Channels"/>  
             <hr/>
-            <SidebarOption Icon={AddIcon} title = "Add Channel"/>  
+            <SidebarOption Icon={AddIcon} addChannelOption title = "Add Channel"/>  
             {channels.map(channel =>(
-                <SidebarOption title= {channel.name} id={channel.id}/>
+                <SidebarOption key={channel.id} title= {channel.name} id={channel.id}/>
             ))}
 
         </div>

@@ -23,9 +23,9 @@ function Chat () {
         db.collection('rooms').doc(roomId)
         .collection('message')
         .orderBy('timestamp', 'asc')
-        .onSnapshot( snapshot => setRoomMessages(snapshot.docs.map((doc) => doc.data())
+        .onSnapshot( (snapshot) => setRoomMessages(snapshot.docs.map((doc) => doc.data())
             )
-        );
+        )
 
     },[roomId]);
 
