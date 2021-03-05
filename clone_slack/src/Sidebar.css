@@ -2,6 +2,7 @@
     background-color: #3f0f40;
     border-top: 1px solid #49274b;
     color:white;
+    flex:0.3;
     max-width: 260px;
 }
 
