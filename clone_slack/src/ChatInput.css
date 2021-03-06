@@ -19,7 +19,7 @@
 }
 
 .chatInput > form > button {
-	display: none !important;
+	display: none;
 	color: gray;
 	background-color: #3f0f40;
 }
