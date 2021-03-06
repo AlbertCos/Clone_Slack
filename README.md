@@ -7,7 +7,7 @@ Clone_Slack, give to the users the posibility to comunicate themselves using rea
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Link to the Webapp (hosted in firebase): https://slack-clone-app-73abb.web.app/
+Link to the Webapp (hosted in firebase): https://slack-clone-app-73abb.web.app/
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
