@@ -34,7 +34,6 @@ function App() {
                   <h1>Welcome</h1>
                 </Route>
               </Switch>
-              {/*react-router -> chat screen */ }
             </div>
         </>
         )}
