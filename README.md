@@ -1,7 +1,6 @@
 # Clone_Slack
 Slack clone version coded in React, using marterial-ui, react-router-dom, deployed in Firebase, with login page using Firebase authentication.  Chat, and channel creation fully deployed.
 
-![](https://github.com/AlbertCos/Data_Science_project/blob/master/dataset-cover.png)
 
 ## Description
 Clone_Slack, give to the users the posibility to comunicate themselves using realtime chat, creating their own channels. The chat keep the history, and identifies each user logged through firebase authentication.
@@ -17,13 +16,13 @@ Clone_Slack, give to the users the posibility to comunicate themselves using rea
 ### **Login, user authentication**
 The users can login using email or phone, are authenticated by firebase.
 
-![](https://github.com/AlbertCos/Data_Science_project/blob/master/moviegif4.gif)
+![](https://github.com/AlbertCos/Clone_Slack/blob/master/slackgif1.gif)
 
 
 ### **Realtime chat and channel creation**
 The users can chat with others, choosing the channel or creating a new one themselves.
 
-![](https://github.com/AlbertCos/Data_Science_project/blob/master/project2gif.gif)
+![](https://github.com/AlbertCos/Clone_Slack/blob/master/slackgif2.gif)
 
 
 ## Installation
